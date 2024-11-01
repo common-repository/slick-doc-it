@@ -1,0 +1,128 @@
+@font-face { font-family: FontAwesomeSlick; src: url(../css/font/fontawesome-webfont.eot?v=3.2.1); src: url(../css/font/fontawesome-webfont.eot?#iefix&v=3.2.1) format('embedded-opentype'), url(../css/font/fontawesome-webfont.woff?v=3.2.1) format('woff'), url(../css/font/fontawesome-webfont.ttf?v=3.2.1) format('truetype'), url(../css/font/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1) format('svg') }
+#docit-primary .docit-icon-arrowdown, #docit-primary .docit-icon-edit { margin: 0!important; display: block; padding: 0!important; text-align: right!important; width: auto!important; height: auto!important; line-height: normal!important; vertical-align: baseline!important; background: 0 0!important }
+.docit-icon-home:before { font-family: FontAwesomeSlick; content: "\f015 "; display: inline-block!important; margin-right: 6px!important }
+.docit-icon-arrowdown:before { font-family: FontAwesomeSlick; content: "\f107"; display: block!important }
+.docit-icon-arrowleft:before, .docit-icon-arrowright:before { display: inline-block!important; font-family: FontAwesomeSlick }
+.docit-icon-arrowleft:before { content: "\f053" }
+.docit-icon-arrowright:before { content: "\f054" }
+.docit-icon-edit:before { font-family: FontAwesomeSlick; content: "\f044"; display: block!important }
+.close-di-video-popup { cursor: pointer; color: #FFF!important;/* background:#000; */ font-size: 20px; font-weight: 700; display: inline-block; line-height: 0; padding: 9px 7px 10px 9px; position: absolute; right: 10px; top: -12px; text-decoration: none!important; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; transition: all .3s ease-in-out; border: none !important; }
+#docit-primary .docit-menu-wrap, #docit-primary .docit-menu-wrap ul { line-height: 1.714285714!important }
+#docit-primary .docit-menu-wrap a, .close-di-video-popup:hover { -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out }
+.close-di-video-popup:hover { color: #ccc!important; transition: all .3s ease-in-out }
+.di-video-popup { display: none; width: inherit; color: #333;/* padding:10px 10px 5px; *//* background-color:#fff; *//* border:1px solid #aaa */ }
+.di-video-pop-btn, .di-video-pop-btn iframe { display: block }
+#docit-primary article, #docit-primary h1, #docit-primary h2, #docit-primary h3, #docit-primary h4, #docit-primary header, #docit-primary li, #docit-primary ol, #docit-primary ul { padding: 0; margin: 0 }
+#docit-primary .docit-entry-content h1, #docit-primary .docit-entry-content h2, #docit-primary .docit-entry-content h3, #docit-primary .docit-entry-content h4, #docit-primary .docit-entry-content h5, #docit-primary .docit-entry-content h6 { margin-bottom: 10px }
+.docit-menu-wrap a { padding: 0; margin: 0 }
+#docit-primary .read-more { display: none }
+#docit-primary ol, #docit-primary ul { padding: 0; margin: 0 0 20px 35px }
+#docit-primary ul li { list-style: outside }
+#docit-primary ol li { list-style: inherit }
+.clear { clear: both }
+#docit-primary .hentry { border: none!important; background: 0 0!important }
+#docit-primary { clear: both; margin: auto }
+#docit-primary .docit-menu-wrap a:hover { text-decoration: none }
+#docit-primary .docit-menu-wrap { text-decoration: none; width: 36%; float: left; margin-right: 3%; border: 0 solid #eee; box-shadow: 0 1px 2px #ddd; padding-bottom: 20px; margin-bottom: 40px; background: #fff }
+#docit-primary #doc-it-content article:first-child { margin-top: 0 }
+#docit-primary .docit-menu-wrap a { text-decoration: none; display: block; transition: all .3s ease-in-out }
+#docit-primary #doc-it-content-wrap #breadcrumb a, #docit-primary .docit-menu li.docit-main-header { -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out }
+#docit-primary .docit-menu li.docit-main-header { list-style: none; padding: 0; margin: 0 0 10px; position: relative; transition: all .3s ease-in-out }
+#docit-primary .docit-menu-wrap .docit-sub-header.di-active, #docit-primary .docit-menu-wrap li.docit-main-link.di-active { border-radius: 4px; -webkit-transition: background .3s ease-in-out; -moz-transition: background .3s ease-in-out; -o-transition: background .3s ease-in-out }
+#docit-primary .docit-menu a.docit-main-cat-title:hover { background: #222 }
+#docit-primary .docit-menu li a.docit-main-cat-title { font-size: 18px; font-weight: 700; color: #FFF; display: block; padding: 15px 40px 15px 19px; background: #3C3C3C; line-height: 18px; font-family: "Open Sans", Helvetica, Arial, sans-serif; text-decoration: none }
+#docit-primary a.docit-main-cat-title:hover { color: #eee; text-decoration: none }
+#docit-primary .docit-menu li.docit-main-header div { position: absolute; right: 12px; top: 8px; color: #FFF; margin: 0; padding: 0; font-size: 29px; cursor: pointer; font-family: Helvetica, Arial, sans-serif; display: none }
+#docit-primary .docit-menu-wrap li.docit-main-link { margin: 0 0 0 20px }
+#docit-primary .docit-menu-wrap li.docit-main-link.di-active { background: #eee; margin: 4px 15px!important; padding: 4px 4px 4px 10px!important; transition: background .3s ease-in-out }
+#docit-primary .docit-menu-wrap .docit-sub-header { margin: 4px 0 0 19px!important; }
+#docit-primary .docit-menu-wrap ul.docit-menu { margin: 0 0 15px; padding: 0 }
+#docit-primary ul.docit-menu .docit-main-cat-title { margin-top: 0 }
+#docit-primary ul.docit-menu li a { font-size: 14px }
+#docit-primary li.docit-sub-header a.docit-sub-cat-title { font-size: 16px; font-weight: 700; color: #333 }
+#docit-primary .docit-menu li { list-style: none; padding: 0; position: relative }
+#docit-primary ul.docit-sub-sub-menu li a { padding-right: 10px }
+#docit-primary a.docit-sub-sub-cat-title { font-size: 14px!important }
+#docit-primary .docit-sub-sub-menu { padding: 0; margin: 0 }
+#docit-primary ul.docit-sub-menu li { padding: 0; margin: 0 15px 0 33px }
+#docit-primary ul.docit-sub-sub-menu li { padding: 0; margin: 0 0 0 18px }
+#docit-primary ul.docit-sub-sub-menu li.docit-sub-sub-header { padding: 0; margin: 0; position: relative }
+#docit-primary ul.docit-sub-sub-menu li.docit-sub-sub-header div, .docit-menu .docit-sub-header div { position: absolute; right: 17px; top: 5px; color: #333; font-size: 15px; cursor: pointer }
+#docit-primary .docit-menu li.docit-sub-menu-wrap { margin: 0 }
+#docit-primary .docit-sub-post { margin: 0 0 0 36px }
+#docit-primary .docit-main-link a, #docit-primary .docit-post-title { color: #888 }
+#docit-primary a.docit-sub-sub-cat-title { color: #838383; font-weight: 700 }
+#docit-primary li.docit-sub-sub-post a { color: #888 }
+#docit-primary ul.docit-sub-menu { margin: 0; padding: 0 }
+body.single-docit #content, body.tax-di_categories #content { width: 100% }
+body.single-docit #docit-archive-wrap, body.tax-di_categories #docit-archive-wrap { float: left!important; width: 60%!important }
+#docit-primary #doc-it-content-wrap, #docit-primary #docit-archive-wrap { float: left; width: 61% }
+#docit-primary .docit-menu-wrap .docit-sub-header.di-active { background: #C7C7C7; margin: 4px 10px!important; padding: 4px 0 4px 15px!important; box-shadow: 1px 1px 1px #efefef; transition: background .3s ease-in-out }
+#docit-primary .docit-menu-wrap .docit-sub-header.di-active a { color: #FFF }
+#docit-primary .docit-menu-wrap .docit-sub-header.di-active:hover { background: #A5A5A5 }
+#docit-primary .docit-menu-wrap .docit-sub-header.di-active div { top: 0!important; right: 2px!important; color: #FFF; padding: 10px!important }
+#docit-primary .docit-sub-header div { padding: 8px 22px!important; top: -1px!important; right: -1px!important }
+#docit-primary ul.docit-sub-menu li.docit-sub-sub-post.di-active { padding: 5px 0 5px 10px; background: #eee; border-radius: 5px; margin: 4px 20px 4px 8px }
+#docit-primary ul.docit-sub-menu li.di-active { padding: 5px 10px; background: #eee; border-radius: 5px; margin: 4px 25px 4px 23px; -webkit-transition: background .3s ease-in-out; -moz-transition: background .3s ease-in-out; -o-transition: background .3s ease-in-out; transition: background .3s ease-in-out }
+#docit-primary ul.docit-sub-menu li ul.docit-sub-sub-menu .docit-sub-sub-header.di-active { padding: 5px 0 5px 10px; background: #eee; border-radius: 5px; margin: 4px 25px 4px -10px }
+#docit-primary .docit-sub-sub-post a:hover { color: #000 }
+#docit-primary #docit-archive-wrap h1.docit-entry-title { font-size: 28px; line-height: 34px; font-weight: 700; padding: 6px 0 0; margin: 0 0 15px }
+#docit-primary .type-docit { margin: 0!important; padding: 0!important }
+#docit-primary .docit-entry-content, #docit-primary article.type-docit { line-height: 22px }
+#docit-primary iframe { max-width: 100% }
+#docit-primary .docit-entry-content p, #docit-primary article.type-docit p { margin: 0 0 24px }
+#docit-primary .docit-sub-post a { color: #999 }
+#docit-primary #doc-it-content-wrap h1.header-text-docit { font-size: 30px; margin-top: 5px; margin-bottom: 0; padding: 0; line-height: 34px }
+#docit-primary #doc-it-content-wrap #breadcrumb { font-size: 14px; margin: 5px 0 0 1px; line-height: 19px }
+#docit-primary #doc-it-content-wrap .docit-entry-header { padding: 0 0 10px; border-bottom: 1px dotted #ddd; margin: 5px 0 25px 1px; }
+#docit-primary #doc-it-content-wrap #breadcrumb .icon-home { font-size: 15px; margin-right: 4px!important }
+#docit-primary #doc-it-content-wrap #breadcrumb a { padding: 0; margin: 0; font-size: 14px!important; text-decoration: none; transition: all .3s ease-in-out }
+#docit-primary .doc-it-entry-header .doc-it-entry-title a, #docit-primary .doc-it-entry-meta { -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out }
+#docit-primary header.doc-it-entry-header { font-size: 20px; margin: 0 0 8px; background: #F5F5F5; position: relative; height: 45px; display: block; top: 0!important }
+#docit-primary h1.doc-it-entry-title { margin: 0; padding: 0 }
+#docit-primary .doc-it-entry-header h1 { font-size: 20px!important; margin: 0 0 0 15px!important; padding: 0!important; line-height: 45px!important }
+.logged-in #docit-primary .doc-it-entry-header .doc-it-entry-title a { width: 92% }
+#docit-primary .doc-it-entry-header .doc-it-entry-title a { text-decoration: none; font-size: 18px; transition: all .3s ease-in-out; text-overflow: ellipsis; display: block; width: 98%; white-space: nowrap; overflow: hidden }
+#docit-primary .doc-it-entry-meta, #docit-primary .doc-it-entry-meta span a { font-size: 12px!important; display: block!important; text-align: center; color: #999; text-decoration: none }
+#docit-primary .doc-it-entry-summary { padding: 10px 15px; line-height: 24px }
+#docit-primary .doc-it-entry-summary p { padding: 0; margin: 0; line-height: 24px }
+#docit-primary article.type-docit { padding: 15px; border-bottom: none }
+#docit-primary .doc-it-entry-meta { background: #FFF; height: 43px; margin: 1px; transition: all .3s ease-in-out; width: auto; position: absolute; right: 0; top: 0; line-height: 25px!important }
+#docit-primary .doc-it-entry-meta span a { padding: 14px 10px 10px 15px; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; transition: all .3s ease-in-out }
+#docit-primary span.docit-home-icon { padding-right: 0 }
+#docit-primary .doc-it-entry-meta span a .docit-icon-edit { font-size: 19px }
+#docit-primary .doc-it-entry-meta span a:hover { color: #444 }
+#docit-primary #doc-it-content-wrap pre { white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word }
+#docit-primary .di-empty-category { padding: 20px; line-height: 22px }
+#docit-primary .post-edit-link::before { display: none }
+@media screen and (max-width:700px) {
+#docit-primary { margin: 0!important; padding: 20px!important }
+#docit-primary #doc-it-content-wrap, #docit-primary .docit-menu-wrap { float: none; width: 100%; margin: 0 0 20px }
+}
+.di-active { display: block!important }
+#docit-primary .doc-it-next-prev-wrap { margin: 35px 0 0; min-height: 25px; padding-top: 12px; border-top: 1px dotted #ddd }
+#docit-primary .doc-it-next-prev-wrap a.docit-prev-post { float: left; width: 43%; line-height: 22px; text-align: left; margin-left: 8px; text-decoration: none; font-size: 15px }
+#docit-primary .doc-it-next-prev-wrap a.docit-next-post { float: right; width: 45%; line-height: 22px; text-align: right; margin-right: 8px; text-decoration: none; font-size: 15px }
+#docit-primary .doc-it-next-prev-wrap .docit-icon-arrowright { float: right!important; color: #A0A0A0; font-size: 16px; display: inline-block }
+#docit-primary .doc-it-next-prev-wrap .docit-icon-arrowleft { float: left!important; color: #A0A0A0; font-size: 16px }
+#slick-docit-login-home-bar { margin-bottom: 7px; }
+.docit-fluid-videoWrapper { position: relative; padding-bottom: 56.25%; height: 0 }
+.docit-fluid-videoWrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; min-height: 100%; background: #000; box-shadow: 0 2px 200px #000; }
+body .di-video-popup { max-width: 854px; opacity: 1; z-index: 9999999; position: fixed !important; top: 0!important; bottom: 0!important; right: 0!important; left: 0!important; max-height: 480px; margin: auto !important; }
+
+.di-video-popup .lb_overlay.js-lb-overlay { opacity: 0.1 !important; }
+.slick-docit-premium-content .docit-entry-content { position: relative;overflow: hidden;}
+.slick-docit-premium-content .docit-entry-content .slick-read-more { position: absolute;bottom: -55px; left: 0; z-index: 1; width: 100%; margin: 0; padding: 0 0 200px 0; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+76&0+0,1+79 */
+background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.96) 76%, rgba(255,255,255,1) 79%);/* FF3.6-15 */ background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.96) 76%, rgba(255,255,255,1) 79%);/* Chrome10-25,Safari5.1-6 */ background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0.96) 76%, rgba(255,255,255,1) 79%);/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff', GradientType=0 );/* IE6-9 */}
+.slick-docit-premium-content .docit-login-url { padding: 25px 30px; z-index: 2;top: 25px; color: #999; position: relative; text-align: center; background: #FBFBFB; border: 1px solid #F1F1F1;margin: -15px 0 20px;}
+.slick-di-overlay-wrap { position: fixed; top: 0px; right: 0; bottom: 0; left: 0; opacity: 0; z-index: 99999998 !important; background-color: rgba(0,0,0,.75); text-align: center; pointer-events: none; box-shadow: 0 2px 500px #000; }
+.docit-fluid-videoWrapper { position: relative; padding-bottom: 56.25%; height: 0 }
+.docit-fluid-videoWrapper iframe { margin: 0; min-height: 343px; background: #000!important; margin-bottom: 0!important }
+.slick-di-overlay { max-width: 854px; opacity: 1; z-index: 99999999; position: absolute; top: 0; bottom: 0; right: 0; left: 0; padding: 15px; max-height: 480px; /* background: #444; */
+margin: auto;/* box-shadow: 0 2px 200px #000; */
+}
+.slick-di-overlay-wrap:target { display: block; opacity: 1; z-index: 99999999!important; pointer-events: auto }
+.slick-di-pipe { border-left: 1px solid #c1c1c1; display: inline-block; line-height: 15px; margin: 0 6px 0 5px; }
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) {
+.slick-di-overlay { max-width: 580px; margin: 15px auto; }
+}
